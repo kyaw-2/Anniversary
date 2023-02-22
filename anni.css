@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("ForAnniversary/couple22.jpeg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+  
+  /* your other CSS styles for text and other elements */
+  
+  
+  div .title{
+    text-align: center;
+    background-color: rgb(197, 37, 197);
+    margin: 0;
+    color: rgb(13, 247, 247);
+}
+#music-control {
+    margin-top: 10px;
+  }
+  
+  #music-toggle {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  pre {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(6, 7, 7);
+  }
+  .poem-title{
+    text-align: center;
+    color: rgb(0, 2, 2);
+  }
+  @media screen and (max-width: 600px) {
+    pre {
+        text-align: center;
+        font-size: 10px;
+  }
+}
+.autor{
+    margin-top: 100px;
+}
+
+#memory-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  #memory-toggle {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
