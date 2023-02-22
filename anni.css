@@ -2,6 +2,7 @@ body{
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("couple22.jpeg");
     background-size: cover;
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -46,7 +47,12 @@ body{
         font-size: 10px;
   }
 }
-
+@media screen and (max-width: 300px) {
+  pre {
+      text-align: center;
+      font-size: 8px;
+}
+}
 .autor{
     margin-top: 100px;
 }
