@@ -46,11 +46,7 @@ body{
         font-size: 10px;
   }
 }
-@media screen and (max-width: 400px) {
-  pre {
-      text-align: center;
-      font-size: 6px;
-}}
+
 .autor{
     margin-top: 100px;
 }
